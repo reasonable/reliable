@@ -16,6 +16,10 @@ Operating systems that utilize both infrastructure and AI components as sources 
 
 In systems where non-determinism is the norm, real-time visibility is crucial. We need tools that provide high-level visualizations of agent interactions, event flows, LLM request/response, external tool communications, and decision paths. This enables continuous tracing of emergent behaviors, validation of system correctness, debugging, and rapid diagnosis of issues stemming from AI outputs or distributed inconsistencies. This includes tracking end-to-end system SLAs across distributed systems, multi-agent collaboration, and AI/LLM-specific metrics.
 
+### Knowlege Layer for Provable, Verifiable and Explainable Reasoning
+
+Agents create and maintain a world view that informs their planning, reasoning and communication with other agents and humans.  A dedicated AI memory, such as provided by knowledge graphs, comprises the understanding of their workspace that agents share to do what's next.  Higher level abstractions and operations over them are needed for context engineering to be explainable, verifiable, and ultimately provably correct.
+
 ### Reliable Agentic Loops
 
 Reliable agentic AI relies on three interconnected loops:
